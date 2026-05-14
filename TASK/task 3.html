@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        table{
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        td{
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+        /* Different Colors */
+        .pink{
+            background-color: pink;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+
+        .lightblue{
+            background-color: lightblue;
+        }
+
+        .lightgreen{
+            background-color: lightgreen;
+        }
+
+        /* Thick Borders for Sudoku Boxes */
+        .right-border{
+            border-right: 5px solid black;
+        }
+
+        .bottom-border{
+            border-bottom: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Sudoku Table</h1>
+
+    <table>
+        <tr>
+            <td class="pink">1</td>
+            <td class="pink">1</td>
+            <td class="pink right-border">1</td>
+
+            <td class="yellow">2</td>
+            <td class="yellow">2</td>
+            <td class="yellow right-border">2</td>
+
+            <td class="lightblue">4</td>
+            <td class="lightblue">4</td>
+            <td class="lightblue">4</td>
+        </tr>
+
+        <tr>
+            <td class="pink">6</td>
+            <td class="pink">6</td>
+            <td class="pink right-border">6</td>
+
+            <td class="yellow">1</td>
+            <td class="yellow">1</td>
+            <td class="yellow right-border">1</td>
+
+            <td class="lightblue">2</td>
+            <td class="lightblue">2</td>
+            <td class="lightblue">2</td>
+        </tr>
+
+        <tr>
+            <td class="pink">4</td>
+            <td class="pink">4</td>
+            <td class="pink right-border">4</td>
+
+            <td class="yellow">6</td>
+            <td class="yellow">6</td>
+            <td class="yellow right-border">6</td>
+
+            <td class="lightblue">8</td>
+            <td class="lightblue">8</td>
+            <td class="lightblue">8</td>
+        </tr>
+
+        <tr>
+            <td class="lightgreen bottom-border">10</td>
+            <td class="lightgreen bottom-border">10</td>
+            <td class="lightgreen right-border bottom-border">10</td>
+
+            <td class="pink bottom-border">12</td>
+            <td class="pink bottom-border">12</td>
+            <td class="pink right-border bottom-border">12</td>
+
+            <td class="yellow bottom-border">1</td>
+            <td class="yellow bottom-border">1</td>
+            <td class="yellow bottom-border">1</td>
+        </tr>
+
+        <tr>
+            <td class="lightgreen">3</td>
+            <td class="lightgreen">3</td>
+            <td class="lightgreen right-border"></td>
+
+            <td class="pink">8</td>
+            <td class="pink"></td>
+            <td class="pink right-border">3</td>
+
+            <td class="yellow"></td>
+            <td class="yellow"></td>
+            <td class="yellow">1</td>
+        </tr>
+
+        <tr>
+            <td class="lightgreen">7</td>
+            <td class="lightgreen"></td>
+            <td class="lightgreen right-border"></td>
+
+            <td class="pink"></td>
+            <td class="pink">2</td>
+            <td class="pink right-border"></td>
+
+            <td class="yellow"></td>
+            <td class="yellow"></td>
+            <td class="yellow">6</td>
+        </tr>
+
+        <tr>
+            <td class="pink"> </td>
+            <td class="pink">6</td>
+            <td class="pink right-border"></td>
+
+            <td class="yellow"></td>
+            <td class="yellow"></td>
+            <td class="yellow right-border"></td>
+
+            <td class="lightblue">2</td>
+            <td class="lightblue">8</td>
+            <td class="lightblue"></td>
+        </tr>
+
+        <tr>
+            <td class="pink"></td>
+            <td class="pink"></td>
+            <td class="pink right-border"></td>
+
+            <td class="yellow">4</td>
+            <td class="yellow">1</td>
+            <td class="yellow right-border">9</td>
+
+            <td class="lightblue">14</td>
+            <td class="lightblue">14</td>
+            <td class="lightblue">14</td>
+        </tr>
+
+        <tr>
+            <td class="pink">16</td>
+            <td class="pink">16</td>
+            <td class="pink right-border">16</td>
+
+            <td class="yellow">18</td>
+            <td class="yellow">18</td>
+            <td class="yellow right-border">18</td>
+
+            <td class="lightblue">20</td>
+            <td class="lightblue">20</td>
+            <td class="lightblue">20</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
